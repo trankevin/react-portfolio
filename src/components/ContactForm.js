@@ -1,7 +1,10 @@
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
+import {ReactComponent as LinkedIn} from "../assets/icons/linkedin.svg";
+import {ReactComponent as Github} from "../assets/icons/github.svg";
 
 const ContactForm = () => {
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -23,6 +26,12 @@ const ContactForm = () => {
         <div id="contact-me" className="section" >
 
             <h2 className="section__header">Contact Me</h2>
+
+            <p className="section__description">Shoot me a message here or connect on LinkedIn!</p>
+
+            <div className="social-icons">
+                <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank"><LinkedIn /></a>
+            </div>
 
             <form ref={form} onSubmit={sendEmail}>
                 <label htmlFor="from_name">Name</label>
