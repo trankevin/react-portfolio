@@ -14,6 +14,7 @@ $border-radius: 6px;
 
 .container {
   max-width: 750px;
+  padding: 0px 20px;
   margin: 0 auto;
 }
 
@@ -134,6 +135,35 @@ p {
       margin-right:20px
     }
   }
+
+  @media (max-width:768px) {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;   
+    
+    &__img-circle {
+      margin-right:0;
+      margin-bottom:20px;
+    }
+
+    &__text-content {
+      text-align: center;
+    }
+
+    &__buttons {
+      flex:unset;
+      flex-direction: column;
+
+      a.btn {
+        margin-right:0;
+        margin-bottom:10px;
+      }
+    }
+  }
 }
 
 // --------------
@@ -205,8 +235,8 @@ footer {
   width:100%;
   display: flex;
   justify-content: center;
-
+  padding: 15px;
   p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
