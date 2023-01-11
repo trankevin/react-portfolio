@@ -1,22 +1,32 @@
 [
     {
         "title": "Geomechanica",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "./imgs/geomechanica.png",
+        "content": "Freelance project for a geological engineering company. This was a full website build using Wordpress with the design provided by the client.",
         "urls": [{"label":"Live", "url":"https://www.geomechanica.com"}]
     },
     {
-        "title": "World Association of Business Coaches",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "title": "Worldwide Association of Business Coaches",
+        "image": "./imgs/wabc.png",
+        "content": "Full website build for an online business accreditation company that was developed at Blue Eclipse Media. Features complex user memberships, applications and approval processes that needed to be streamlined online.  ",
         "urls": [{"label":"Live", "url":"https://www.wabccoaches.com"}]
     },
     {
         "title": "Canadian Paralympic Committee Mobile App",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "image": "./imgs/cpc.jpeg",
+        "content": "Hybrid mobile app built with Ionic Framework at Industrial Agency. Led the research and integration of Ionic Framework using Angular.js and was deployed to IOS and Android platforms.\n\n Note: App is no longer available online."
+    },
+    {
+        "title": "Buggly - Bug Tracker",
+        "image": "./imgs/buggly.png",
+        "content": "Personal bug tracking application built with React, Firebase, Redux, Router, Bootstrap and CSS Modules",
+        "urls": [{"label":"Source Code & Demo", "url":"https://github.com/trankevin/buggly"}]
     },
     {
         "title": "React Portfolio Website",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "urls": [{"label":"Source Code", "url":"https://github.com/trankevin/buggly"}]
+        "image": "./imgs/portfolio.png",
+        "content": "This website! Minimalistic and responsive website built with React.",
+        "urls": [{"label":"Source Code", "url":"https://github.com/trankevin/react-portfolio"}]
     }
 
 ]

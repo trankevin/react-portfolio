@@ -1,4 +1,5 @@
 
+import ContactForm from 'components/ContactForm';
 import ProfileCard from 'components/ProfileCard';
 import SkillsList from 'components/SkillsList';
 import WorkList from 'components/WorkList';
@@ -14,6 +15,7 @@ function App() {
           <ProfileCard/>
           <WorkList/>
           <SkillsList/>
+          <ContactForm/>
         </div>  
       </main>
 

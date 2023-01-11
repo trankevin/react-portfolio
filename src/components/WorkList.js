@@ -7,23 +7,24 @@ const WorkList = () => {
 
             <h2 className="section__header">Work</h2>
 
-            {projects.map(project => {
-                return (
-                    <div key={project.title} className="work-list">
-                        <div className="work-list__item">
-                            <div className="work-list__image"></div>
+            <p className="section__description">Some work examples from current and previous positions.</p>
+
+            <div className="work-list">
+                {projects.map(project => {
+                    return (
+                        <div key={project.title} className="work-list__item">
+                            <div className="work-list__image" style={{backgroundImage: `url(${project.image})`}}></div>
                             <div className="work-list__content">
                                 <h3>{project.title}</h3>
                                 <p>{project.content}</p>
                                 <div className="work-list__btns">
-                                    {'urls' in project && project.urls.map(item => <a key={item.label} className="btn btn--accent" href={item.url}>View {item.label}</a>) }
+                                    {'urls' in project && project.urls.map(item => <a key={item.label} className="btn btn--accent" href={item.url} target="_blank">View {item.label}</a>) }
                                 </div>
                             </div>
                         </div>
-                    </div>
-                )
-            })}
-
+                    )
+                })}
+            </div>
         </div> 
     )
 }
