@@ -18,7 +18,16 @@ const WorkList = () => {
                                 <h3>{project.title}</h3>
                                 <p>{project.content}</p>
                                 <div className="work-list__btns">
-                                    {'urls' in project && project.urls.map(item => <a key={item.label} className="btn btn--accent" href={item.url} target="_blank">View {item.label}</a>) }
+                                    {'urls' in project && project.urls.map(item => {
+                                    return (    
+                                        <a key={item.label} 
+                                            className="btn btn--accent" 
+                                            href={item.url} 
+                                            target="_blank" 
+                                            title={`View ${item.label} - ${project.title}` } 
+                                            aria-label={`View ${item.label} - ${project.title}` }>View {item.label}</a>
+                                    )
+                                    })}
                                 </div>
                             </div>
                         </div>

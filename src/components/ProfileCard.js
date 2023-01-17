@@ -24,8 +24,8 @@ const ProfileCard = () => {
                 <h1>Kevin Tran</h1>
                 <p>Front End Developer</p>
                 <div className="profile-card__social-icons">
-                    <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank"><LinkedIn /></a>
-                    <a href="https://github.com/trankevin" target="_blank"><Github /></a>
+                    <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank" title="LinkedIn Profile"><LinkedIn aria-hidden="true"/></a>
+                    <a href="https://github.com/trankevin" target="_blank" title="Github Profile"><Github aria-hidden="true"/></a>
                 </div>
             </div>
             <div className="profile-card__buttons">
