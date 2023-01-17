@@ -1,25 +1,31 @@
 import emailjs from '@emailjs/browser'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import {ReactComponent as LinkedIn} from "../assets/icons/linkedin.svg";
-import {ReactComponent as Github} from "../assets/icons/github.svg";
+import loadingIcon from "../assets/icons/loading.svg";
 
 const ContactForm = () => {
+
+    const [showLoading, setShowLoading] = useState(false);
+    const [sent, setSent] = useState(false);
 
     const form = useRef();
 
     const sendEmail = (e) => {
-        
-        e.preventDefault();
+        setSent(false);
+        setShowLoading(true);
 
-        console.log(form.current);
+        e.preventDefault();
 
         emailjs.sendForm('service_e4f9rbv', 'template_wb3b9kj', form.current, 'QpVo9O881Qr7EKfU4')
           .then((result) => {
               console.log(result.text);
               form.current.reset();
+              setShowLoading(false);
+              setSent(true);
           }, (error) => {
               console.log(error.text);
-          });        
+          });    
+        
     }
 
     return (
@@ -34,16 +40,19 @@ const ContactForm = () => {
             </div>
 
             <form ref={form} onSubmit={sendEmail}>
-                <label htmlFor="from_name">Name</label>
-                <input id="from_name" type="text" name="from_name"/>
+                <label htmlFor="from_name">Name<sup>*</sup></label>
+                <input id="from_name" type="text" name="from_name" required/>
 
-                <label htmlFor="from_email">Email</label>
-                <input id="from_email" type="email" name="from_email"/>
+                <label htmlFor="from_email">Email<sup>*</sup></label>
+                <input id="from_email" type="email" name="from_email" required/>
 
-                <label htmlFor="message">Message</label>
-                <textarea id="message" name="message" rows="5"></textarea>
+                <label htmlFor="message">Message<sup>*</sup></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+               <button className="btn btn--accent" type="submit">{!showLoading ? 'Send Message' : <img width="13px" src={loadingIcon}/> }</button> 
 
-                <button className="btn btn--accent" type="submit">Send Message</button>
+                {sent && <p>Message Sent!</p>}
+                
             </form>
 
         </div>
