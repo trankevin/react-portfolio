@@ -26,10 +26,18 @@ const ProfileCard = () => {
             <div className="profile-card__text-content">
                 <h1>Kevin Tran</h1>
                 <p>Full Stack Web Developer</p>
-                <div className="profile-card__social-icons">
-                    <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank" title="LinkedIn Profile"><LinkedIn aria-hidden="true"/></a>
-                    <a href="https://github.com/trankevin" target="_blank" title="Github Profile"><Github aria-hidden="true"/></a>
+
+                <div className="profile-card__sub-bar">
+                    <div className="profile-card__social-icons">
+                        <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank" title="LinkedIn Profile"><LinkedIn aria-hidden="true"/></a>
+                        <a href="https://github.com/trankevin" target="_blank" title="Github Profile"><Github aria-hidden="true"/></a>
+                        
+                    </div>
+                    <span>|</span>
+                    <p className="profile-card__location">Toronto, Canada</p>
                 </div>
+                
+                
             </div>
             <div className="profile-card__buttons">
                 <a href="work" onClick={onAnchorClick} className="btn btn--accent">View Work <CgWebsite /></a>

@@ -11,7 +11,8 @@ const WorkList = () => {
 
             <div className="section__description">
 
-            <p>As an agency developer with 8 years experience, I've had the opportunity to work on a variety of projects using different technologies such as <b>HTML5</b>, <b>CSS</b>, <b>PHP</b>, <b>C#</b>, <b>MySQL</b>, <b>JavaScript</b>, <b>AngularJS</b>, <b>React</b> and <b>Content</b> <b>Management</b> <b>Systems</b>. </p>
+            <p>Full Stack Web Developer with 8 years experience.</p>
+                <p>I've had the opportunity to work on a variety of projects using different technologies such as <b>HTML5</b>, <b>CSS</b>, <b>PHP</b>, <b>C#</b>, <b>MySQL</b>, <b>JavaScript</b>, <b>AngularJS</b>, <b>React</b> and <b>Content</b> <b>Management</b> <b>Systems</b>. </p>
             <p>Here are a few examples from current and previous positions:</p>
 
             </div>
