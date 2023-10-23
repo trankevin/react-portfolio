@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser'
 import { useRef, useState } from 'react';
 import {ReactComponent as LinkedIn} from "../assets/icons/linkedin.svg";
 import loadingIcon from "../assets/icons/loading.svg";
+import { HiEnvelope } from "react-icons/hi2";
 
 const ContactForm = () => {
 
@@ -31,7 +32,7 @@ const ContactForm = () => {
     return (
         <div id="contact-me" className="section" >
 
-            <h2 className="section__header">Contact Me</h2>
+            <h2 className="section__header">Contact Me <HiEnvelope /> </h2>
 
             <p className="section__description">Shoot me a message here or connect on LinkedIn!</p>
 

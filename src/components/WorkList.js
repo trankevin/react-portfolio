@@ -1,13 +1,21 @@
 import projects from "../projects.json"
+import { MdWork } from "react-icons/md"
+import { CgWebsite } from "react-icons/cg"
 
 const WorkList = () => {
 
     return (
         <div id="work" className="section">
 
-            <h2 className="section__header">Work</h2>
+            <h2 className="section__header">Work <CgWebsite /></h2>
 
-            <p className="section__description">Some work examples from current and previous positions.</p>
+            <div className="section__description">
+
+            <p>As an agency developer with 8 years experience, I've had the opportunity to work on a variety of projects using different technologies such as <b>HTML5</b>, <b>CSS</b>, <b>PHP</b>, <b>C#</b>, <b>MySQL</b>, <b>JavaScript</b>, <b>AngularJS</b>, <b>React</b> and <b>Content</b> <b>Management</b> <b>Systems</b>. </p>
+            <p>Here are a few examples from current and previous positions:</p>
+
+            </div>
+            
 
             <div className="work-list">
                 {projects.map(project => {

@@ -1,43 +1,43 @@
 [
     {
         "title": "HTML5",
-        "logo": ""
+        "logo": "FaHtml5"
     },
     {
         "title": "CSS/SCSS",
-        "logo": ""
+        "logo": "FaCss3Alt"
     },
     {
         "title": "JavaScript",
-        "logo": ""
+        "logo": "IoLogoJavascript"
     },
     {
         "title": "jQuery",
-        "logo": ""
+        "logo": "DiJqueryUiLogo"
     },
     {
         "title": "React",
-        "logo": ""
+        "logo": "FaReact"
     },
     {
         "title": "PHP",
-        "logo": ""
+        "logo": "FaPhp"
     },
     {
         "title": "C#/ASP.NET MVC",
-        "logo": ""
+        "logo": "FaMicrosoft"
     },
     {
         "title": "MySQL",
-        "logo": ""
+        "logo": "DiMysql"
     },
     {
         "title": "WordPress",
-        "logo": ""
+        "logo": "FaWordpress"
     },
     {
         "title": "WooCommerce",
-        "logo": ""
+        "logo": "SiWoo"
     },
     {
         "title": "AJAX",
@@ -53,14 +53,14 @@
     },
     {
         "title": "Git",
-        "logo": ""
+        "logo": "FaGithub"
     },
     {
         "title": "AngularJS",
-        "logo": ""
+        "logo": "FaAngular"
     },
     {
         "title": "Illustrator",
-        "logo": ""
+        "logo": "DiIllustrator"
     }
 ]

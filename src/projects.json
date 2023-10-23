@@ -1,20 +1,32 @@
 [
     {
-        "title": "Geomechanica",
-        "image": "./imgs/geomechanica.png",
-        "content": "Freelance project for a geological engineering company. This was a full website build using WordPress with the design provided by the client.",
-        "urls": [{"label":"Live", "url":"https://www.geomechanica.com"}]
-    },
-    {
         "title": "Worldwide Association of Business Coaches",
         "image": "./imgs/wabc.png",
         "content": "Full website build for an online business accreditation company that was developed at Blue Eclipse Media. Features complex user memberships, applications and approval processes that needed to be streamlined online.  ",
         "urls": [{"label":"Live", "url":"https://www.wabccoaches.com"}]
     },
     {
+        "title": "Canadian Association of Optometrists",
+        "image": "./imgs/opto.png",
+        "content": "Supported website and online learning course for Optometrist Assistants. Maintained and developed features that included course payment, learning resources and online quizzes.",
+        "urls": [{"label":"Live", "url":"https://opto.ca/"}]
+    },
+    {
+        "title": "Geomechanica",
+        "image": "./imgs/geomechanica.png",
+        "content": "Freelance contract for a geological engineering company. This was a full website build using WordPress with the design provided by the client.",
+        "urls": [{"label":"Live", "url":"https://www.geomechanica.com"}]
+    },
+    {
         "title": "Canadian Paralympic Committee Mobile App",
         "image": "./imgs/cpc.jpeg",
-        "content": "Hybrid mobile app built with Ionic Framework at Industrial Agency. Led the research and integration of Ionic Framework using AngularJS and was deployed to IOS and Android platforms.\n\n Note: App is no longer available online."
+        "content": "Hybrid mobile app developed with Ionic Framework at Industrial Agency. Led the research and integration of Ionic Framework using AngularJS and was deployed to IOS and Android platforms.\n\n Note: App is no longer available online."
+    },
+    {
+        "title": "Easy Report Cards Mobile App",
+        "image": "./imgs/easy-report-cards.png",
+        "content": "Hybrid mobile app developed with Ionic Framework at Blue Eclipse Media. Integrated with an existing website and includes premium feature and user authentication.",
+        "urls": [{"label":"Live", "url":"https://play.google.com/store/apps/details?id=com.blueeclipse.easyreportcards"}]
     },
     {
         "title": "Buggly - Bug Tracker",

@@ -1,6 +1,9 @@
-import img from "../assets/imgs/bw-kevin-square.png";
+//import img from "../assets/imgs/bw-kevin-square.png";
+import img from "../assets/imgs/bw-kevin-square-no-bg-adobe-edited.jpeg";
 import {ReactComponent as LinkedIn} from "../assets/icons/linkedin.svg";
 import {ReactComponent as Github} from "../assets/icons/github.svg";
+import { CgWebsite } from "react-icons/cg";
+import { HiEnvelope } from "react-icons/hi2";
 
 const ProfileCard = () => {
 
@@ -22,15 +25,15 @@ const ProfileCard = () => {
             </div>
             <div className="profile-card__text-content">
                 <h1>Kevin Tran</h1>
-                <p>Front End Developer</p>
+                <p>Full Stack Web Developer</p>
                 <div className="profile-card__social-icons">
                     <a href="https://www.linkedin.com/in/kevintrandev/" target="_blank" title="LinkedIn Profile"><LinkedIn aria-hidden="true"/></a>
                     <a href="https://github.com/trankevin" target="_blank" title="Github Profile"><Github aria-hidden="true"/></a>
                 </div>
             </div>
             <div className="profile-card__buttons">
-                <a href="work" onClick={onAnchorClick} className="btn btn--accent">View Work</a>
-                <a href="contact-me" onClick={onAnchorClick} className="btn">Contact Me</a>
+                <a href="work" onClick={onAnchorClick} className="btn btn--accent">View Work <CgWebsite /></a>
+                <a href="contact-me" onClick={onAnchorClick} className="btn">Contact Me <HiEnvelope /></a>
             </div>
         </div>
     )
